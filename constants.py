@@ -5,28 +5,28 @@ DATA_DIR = '/kaggle/working/data'
 SIM_TASK_CONFIGS = {
     'sim_transfer_cube_scripted':{
         'dataset_dir': DATA_DIR + '/sim_transfer_cube_scripted',
-        'num_episodes': 50,
+        'num_episodes': 5,
         'episode_len': 400,
         'camera_names': ['top']
     },
 
     'sim_transfer_cube_human':{
         'dataset_dir': DATA_DIR + '/sim_transfer_cube_human',
-        'num_episodes': 50,
+        'num_episodes': 5,
         'episode_len': 400,
         'camera_names': ['top']
     },
 
     'sim_insertion_scripted': {
         'dataset_dir': DATA_DIR + '/sim_insertion_scripted',
-        'num_episodes': 50,
+        'num_episodes': 5,
         'episode_len': 400,
         'camera_names': ['top']
     },
 
     'sim_insertion_human': {
         'dataset_dir': DATA_DIR + '/sim_insertion_human',
-        'num_episodes': 50,
+        'num_episodes': 5,
         'episode_len': 500,
         'camera_names': ['top']
     },
